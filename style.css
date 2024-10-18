@@ -1,0 +1,43 @@
+body {
+  background: #eee;
+  font-family: sans-serif;
+}
+
+.title {
+  width: 500px;
+  margin: 32px auto;
+  text-align: center;
+  border: red;
+}
+
+.content {
+  text-align: center;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  border-style: solid;
+  border-width: medium;
+  border: red;
+}
+
+.thumbnail {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    margin-bottom: -50px auto;
+}
+
+.button {
+  font-size: 16px; 
+  margin: -50px auto;
+  height: 50px;
+  width: 200px;
+  background-color: antiquewhite;
+  font-size: 16px;
+  font-weight: bold;
+}
